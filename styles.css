@@ -200,6 +200,12 @@ footer {
   transition: transform 0.3s;
 }
 
+.collapsible span {
+  display: flex;
+  align-items: center;   /* vycentruje logo + text na stred */
+}
+
+
 .content {
   max-height: 0;
   overflow: hidden;
@@ -288,4 +294,11 @@ footer {
 .read-more-btn:hover {
   background-color: var(--yellow);
   transform: scale(1.05);
+}
+
+
+.inline-logo {
+  height: 1.6em;         /* match the text size */
+  vertical-align: middle; /* align with the text */
+  margin-right: 0.3em; /* small spacing before text */
 }
