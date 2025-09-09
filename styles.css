@@ -38,7 +38,7 @@ header p {
 
 /* SECTIONS */
 section {
-  padding: 40px;
+  padding: 15px 40px;
   max-width: 900px;
   margin: 40px auto;
   background-color: var(--cream);
@@ -179,11 +179,16 @@ footer {
   align-items: center;
   margin-bottom: 8px;
   transition: background-color 0.3s;
+  gap: 0.5rem;
 }
 
+/* anchor tiež ako inline-flex aby text + img boli perfektne centrované */
 .collapsible span a {
-  text-decoration: none;
-  color: var(--brown);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none; /* alebo ponechať podľa potreby */
+  color: inherit;
 }
 
 .collapsible span a:hover {
