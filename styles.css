@@ -245,12 +245,6 @@ footer {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.profile-pic:hover {
-  transform: scale(1.3); /* priblíženie */
-  box-shadow: 4px 4px 12px rgba(0,0,0,0.3); /* mierne zvýraznenie tieňa */
-}
-
-
 @media (max-width: 768px) {
   .about-wrapper {
     flex-direction: column;
