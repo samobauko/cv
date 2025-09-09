@@ -13,13 +13,11 @@
 <!-- Sticky Navigation -->
 <nav class="navbar">
   <ul>
-    <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+    <li><a href="#about"><i class="fa-solid fa-user"></i> Bio</a></li>
     <li><a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
     <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
     <li><a href="#skills"><i class="fa-solid fa-wrench"></i> Skills</a></li>
     <li><a href="#certs"><i class="fa-solid fa-stamp"></i> Certifications</a></li>
-    <li><a href="#volunteering"><i class="fa-solid fa-hand-holding-heart"></i> Volunteering</a></li>
-    <li><a href="#hobbies"><i class="fa-solid fa-star"></i> Hobbies</a></li>
     <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
   </ul>
 </nav>
@@ -30,11 +28,12 @@
 </header>
 
 <section id="about">
-  <h2>About Me</h2>
+  <h2>Bio</h2>
   <div class="about-wrapper">
     <img src="media/fotka.jpg" alt="My Photo" class="profile-pic">
     <p class="about">
-      Versatile <strong>generalist</strong> (not only in IT), not narrowly focused on a single technology. Skilled at <strong>connecting knowledge</strong> across different domains and <strong>quickly adapting</strong> to new technologies.
+      Versatile <strong>generalist</strong> (not only in IT), not narrowly focused on a single technology. Experience from networking (Cisco) through development (FE, BE, FS) to cybersecurity (SOC). 
+      <br/>Skilled at <strong>connecting knowledge</strong> across different domains and <strong>quickly adapting</strong> to new technologies.
       Striving to be a <strong>Renaissance man</strong> through diverse hobbies and learning outside work (e.g., climbing, guitar, philosophy, hands-on projects).
     </p>
   </div>
@@ -185,7 +184,6 @@
       <br/>I have experience in multiple fields – in high school I focused on <strong>networking (Cisco)</strong>, at university I was interested in <strong>low-level programming</strong> (Linux, C/C++, networking programming), and at Vacuumlabs I worked on <strong>frontend, backend, and very little DevOps</strong> tasks (GitHub Workflows). Currently, I work as a <strong>SOC analyst</strong> and sometimes I'm <strong>automation engineer</strong> (XSOAR and Python). 
       <br/>
       This summer I graduated at <strong>Collegium of Anton Neuwirth</strong> where I focused on developing not technical but <strong>intellectual</strong> skills: <strong>reading</strong> philosophers (of Aristotle, J. S. Mill, Aquinas, R. Dawkins etc.) and <strong>writing</strong> essays, which helped me acquire many soft skills. In my free time, I enjoy sports, music (I want to learn to play the guitar), fiction books, carpentry, calisthenics, fixing things, Babetta, and a million other things.
-      </span>
     </p>
   </div>
 </section>
@@ -299,18 +297,6 @@ if (toggleBtn && moreSection) {
   });
 }
 
-// Collapsible behavior
-document.querySelectorAll(".collapsible").forEach(btn => {
-  btn.addEventListener("click", () => {
-    btn.classList.toggle("active");
-    const content = btn.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-});
 
 </script>
 
