@@ -158,13 +158,12 @@
 
 <section id="contact">
   <h2>Contact</h2>
+  <p><i class="fa-solid fa-home"></i> Škarniclova 4, 811 01 Bratislava</p>
   <p><i class="fa-solid fa-envelope"></i> samobauko@gmail.com</p>
   <p><i class="fa-solid fa-phone"></i> +421 915 225 489</p>
   <div class="social-links">
     <a href="https://github.com/samobauko"><i class="fa-brands fa-github"></i></a>
     <a href="https://www.linkedin.com/in/samobauko/"><i class="fa-brands fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/samobauko/"><i class="fa-brands fa-instagram"></i></a>
-    <a href="https://www.facebook.com/samuel.bauko/"><i class="fa-brands fa-facebook"></i></a>
   </div>
 </section>
 
@@ -260,25 +259,6 @@
       }
     });
   });
-// show more in bio button 
-  const readMoreBtn = document.querySelector(".read-more-btn");
-if (readMoreBtn) {
-  readMoreBtn.addEventListener("click", () => {
-    const aboutShort = document.querySelector(".about-short");
-    const dots = aboutShort.querySelector(".dots");
-    const moreText = aboutShort.querySelector(".more-text");
-
-    if (moreText.style.display === "inline") {
-      moreText.style.display = "none";
-      dots.style.display = "inline";
-      readMoreBtn.textContent = "More";
-    } else {
-      moreText.style.display = "inline";
-      dots.style.display = "none";
-      readMoreBtn.textContent = "Less";
-    }
-  });
-}
 
 // more sections button
 // Show more toggle
